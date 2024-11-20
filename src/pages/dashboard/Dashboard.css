@@ -1,0 +1,67 @@
+.dashboard-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+.dashboard-container{
+    color: #FFFFF0;
+}
+.dashboard-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 5px 1px #FFFFF0;
+    width: 24rem;
+    height: 18rem;
+}
+.dashboard-button-container{
+    display: flex;
+    flex-direction: column;
+     gap: 15px;
+
+}
+.dashboard-button{
+    background-color: #FFFFF0;
+    color: white;
+    width: 13rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+     justify-content: center;
+}
+
+#easy-button{
+   background-color: rgb(14, 204, 14);
+}
+#medium-button{
+    background-color: rgb(184, 184, 55);
+  
+}
+#hard-button{
+    background-color: rgb(209, 37, 37);
+}
+#easy-button:hover{
+    background-color: rgb(20, 112, 20);
+    color: white;
+    transition: all 0.3s ease-in-out;
+    scale: 1.1;
+}
+#medium-button:hover{
+    background-color: rgb(131, 131, 9);
+    color: white;
+    transition: all 0.3s ease-in-out;
+    scale: 1.1;
+}
+#hard-button:hover{
+    background-color: rgb(131, 13, 13);
+    color: white;
+    transition: all 0.3s ease-in-out;
+    scale: 1.1;
+}
+
+
